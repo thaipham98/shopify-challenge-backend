@@ -113,7 +113,7 @@ curl --location --request PUT 'https://shopify-challenge-backend.thaipham98.repl
 I chose the feature: Push a button export product data to a CSV. The feature is avaialble at the client side: https://shopify-challenge-frontend.thaipham98.repl.co/
 
 ## Running application
-Client side is deployed on Replit. The URL is: https://shopify-challenge-frontend.thaipham98.repl.co/
-Server side is deployed on Replit. The URL is: https://shopify-challenge-backend.thaipham98.repl.co
+- Client side is deployed on Replit. The URL is: https://shopify-challenge-frontend.thaipham98.repl.co/
+- Server side is deployed on Replit. The URL is: https://shopify-challenge-backend.thaipham98.repl.co
 
 
