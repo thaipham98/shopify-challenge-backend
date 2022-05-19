@@ -1,4 +1,4 @@
-# Shopify challenge - Production engineer intern Fall 22
+# Shopify Production Engineering Intern Challenge - Fall 2022
 
 ## Summary
 This is an attempt for Shopify Production Engineer Intern - Fall 22 application. Specifically, it contains: 
