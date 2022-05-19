@@ -26,7 +26,7 @@ Containing information about the repo and its usage.
 The server is currently hosted on Replit per requirement. The URL is: https://shopify-challenge-backend.thaipham98.repl.co
 ### REST API
 The sample request and response of REST API is described below
-1. View list of items
+1. View list of items:
 `GET /items`
 
 ##### Request
@@ -57,7 +57,7 @@ curl --location --request GET 'https://shopify-challenge-backend.thaipham98.repl
 ]
 ```
 
-2. Create an item
+2. Create an item:
 `POST /items/add`
 ##### Request
 ```
@@ -76,7 +76,7 @@ curl --location --request POST 'https://shopify-challenge-backend.thaipham98.rep
     "name": "abc"
 }
 ```
-3. Delete an item
+3. Delete an item:
 `DELETE /items/delete/<item_id>`
 ##### Request
 ```
@@ -88,8 +88,8 @@ curl --location --request DELETE 'https://shopify-challenge-backend.thaipham98.r
     "status": "Item deleted successfully"
 }
 ```
-4. Edit an item
-`PUT /items/edit
+4. Edit an item:
+`PUT /items/edit`
 ##### Request
 ```
 curl --location --request PUT 'https://shopify-challenge-backend.thaipham98.repl.co/items/edit' \
