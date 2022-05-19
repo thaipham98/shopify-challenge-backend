@@ -58,7 +58,7 @@ def invalid_api_usage(e):
 
 @app.route('/')
 def hello_world():  # put application's code here
-    return 'Hello World!'
+    return 'This is the backend side for shopify intern challenge. Please refer to the README.md for more detail https://github.com/thaipham98/shopify-challenge-backend/blob/main/README.md'
 
 
 def get_weather_description(city):
