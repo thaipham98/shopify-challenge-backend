@@ -136,8 +136,12 @@ def api_edit():
     if item['location']:
         if item['location'] not in cities:
             raise InvalidAPIUsage("Only allow Boston, Seattle, New York, Chicago, or San Francisco")
+    
+    updated_item = model.edit(item)
+    if not updated_item:
+        raise InvalidAPIUsage("No such item!", status_code=404)
 
-    return jsonify(model.edit(item))
+    return jsonify(updated_item)
 
 
 @app.route('/items/delete/<item_id>', methods=['DELETE'])
