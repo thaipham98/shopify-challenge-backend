@@ -1,4 +1,4 @@
-# shopify-challenge-production-engineer-intern-fall-22
+# Shopify challenge - Production engineer intern Fall 22
 
 ## Summary
 This is an attempt for Shopify Production Engineer Intern - Fall 22 application. Specifically, it contains: 
@@ -108,3 +108,12 @@ curl --location --request PUT 'https://shopify-challenge-backend.thaipham98.repl
     "name": "abefae"
 }
 ```
+
+## Additional requirement
+I chose the feature: Push a button export product data to a CSV. The feature is avaialble at the client side: https://shopify-challenge-frontend.thaipham98.repl.co/
+
+## Running application
+Client side is deployed on Replit. The URL is: https://shopify-challenge-frontend.thaipham98.repl.co/
+Server side is deployed on Replit. The URL is: https://shopify-challenge-backend.thaipham98.repl.co
+
+
